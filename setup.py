@@ -13,6 +13,8 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     # TODO: put package requirements here
+    'CoolProp',
+    'numpy'
 ]
 
 setup_requirements = [
@@ -21,7 +23,7 @@ setup_requirements = [
 ]
 
 test_requirements = [
-    'pytest',
+    'pytest'
     # TODO: put package test requirements here
 ]
 

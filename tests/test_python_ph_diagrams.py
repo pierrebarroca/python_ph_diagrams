@@ -6,8 +6,8 @@
 import pytest
 
 
-from python_ph_diagrams import python_ph_diagrams
-
+# from python_ph_diagrams import python_ph_diagrams
+from python_ph_diagrams.python_ph_diagrams import PlotProps
 
 @pytest.fixture
 def response():
@@ -15,6 +15,7 @@ def response():
 
     See more at: http://doc.pytest.org/en/latest/fixture.html
     """
+    assert(PlotProps('HEOS', 'R744'))
     # import requests
     # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
 
